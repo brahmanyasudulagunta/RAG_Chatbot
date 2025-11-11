@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-11-11T17:25:46.832097",
+  "agent_type": "quiz_generator",
+  "user_query": "Generate random quiz from all PDFs",
+  "retrieval_info": {
+    "total_chunks_retrieved": 4,
+    "sources": [
+      "data/pdfs/Lecture 11_slides.pdf",
+      "data/pdfs/Lecture 10_slides.pdf",
+      "data/pdfs/Lecture 3_slides.pdf"
+    ],
+    "chunks": [
+      {
+        "chunk_id": 0,
+        "source": "data/pdfs/Lecture 11_slides.pdf",
+        "page": 1,
+        "content_preview": "Public-Key Cryptography",
+        "content_length": 23
+      },
+      {
+        "chunk_id": 1,
+        "source": "data/pdfs/Lecture 11_slides.pdf",
+        "page": 9,
+        "content_preview": "Public-Key Cryptography -Encryption",
+        "content_length": 35
+      },
+      {
+        "chunk_id": 2,
+        "source": "data/pdfs/Lecture 10_slides.pdf",
+        "page": 11,
+        "content_preview": "Reading material•Encryption: Strengths and Weaknesses of Public-key Cryptography",
+        "content_length": 80
+      },
+      {
+        "chunk_id": 3,
+        "source": "data/pdfs/Lecture 3_slides.pdf",
+        "page": 9,
+        "content_preview": "Symmetric Encryption Principles",
+        "content_length": 31
+      }
+    ]
+  },
+  "llm_info": {
+    "context_sent": 4,
+    "total_context_length": 169,
+    "response_length": 3028
+  },
+  "bot_response_preview": "Q1. [TRUE/FALSE] Public-key cryptography is generally faster than symmetric encryption for encrypting large amounts of data.\nAnswer: False\n\nQ2. [SINGLE CORRECT] Which of the following is a primary strength of public-key cryptography compared to symmetric encryption?\nA) Faster encryption/decryption speeds for bulk data.\nB) Simpler key management, as only one key needs to be managed per communication.\nC) Easier key distribution, as the encryption key can be publicly shared.\nD) Requires less comput..."
+}
