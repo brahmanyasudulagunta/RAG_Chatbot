@@ -33,7 +33,7 @@ def delete_chat(index, chat_history, agent_key=None):
     return chat_history
 
 
-client = genai.Client(api_key="AIzaSyA7j45L-0uSipbGCUjAjhtkyIdYjDVXRd0")
+client = genai.Client(api_key="API Key Here")
 
 def local_llm_generate(prompt: str) -> str:
     response = client.models.generate_content(
