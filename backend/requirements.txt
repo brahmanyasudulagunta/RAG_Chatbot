@@ -1,6 +1,6 @@
 numpy<2
 torch>=2.1.0
-torchvision>=0.16.0
+
 langchain-core>=0.1.0
 langchain-community>=0.0.20
 langchain-text-splitters>=0.0.1
@@ -8,8 +8,11 @@ langchain-chroma>=0.1.0
 langchain-huggingface>=0.0.1
 sentence-transformers>=2.2.0
 pypdf>=3.0.0
-streamlit
-ollama
 google-generativeai
 requests
 beautifulsoup4
+fastapi
+uvicorn
+pydantic
+pytest
+httpx
